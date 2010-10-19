@@ -1,0 +1,27 @@
+﻿/*
+	CSS Styles for Twitter Feedback Tutorial
+	Build Internet (www.buildinternet.com)
+	Written by Zach Dunn
+*/
+
+*{outline:none; margin:0; padding:0;}
+body{background:#003b64;}
+	#wrapper{width:960px; background:#FFF; margin:10px auto; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius:5px; overflow:hidden;}
+	
+	h1, h2{font-family:"Helvetica Neue", helvetica, arial, sans-serif;}
+	p, select{font-family:"lucida grande", helvetica, arial, sans-serif;}
+		h1{padding:30px 30px 0px 30px; font-size:28px; font-weight:normal;}
+		h2{padding:30px 30px 0px 30px; font-size:13px; font-weight:normal; text-transform:uppercase; letter-spacing:1px; color:#888888;}
+		p{padding:0px 30px 30px 30px;  font-size:13px; line-height:1.6em; color:#333;}
+			a{color:#152B5C;}
+	
+	select{font-size:13px;}
+		select option{background:#A90000;}
+	
+	p.mood{text-align:center; padding-bottom:0;}
+	p.tweet{background:#EDFAFA; border:1px solid #C8E8E6; margin:10px 30px; padding:15px;}
+	p.footer{color:#FFF; text-align:center; font-size:11px;}
+		p.footer a{color:#F7F7F7;}
+	
+	p#tweetit{text-align:center; padding:0;}
+		#tweetit a{display:block; background: #FAFAFA url('images/tweet-button.jpg') top center no-repeat; width:205px; height:75px; overflow:hidden; text-indent:-9999px; margin:0 auto;}
